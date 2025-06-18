@@ -277,3 +277,9 @@ jQuery(document).ready(function($){
 		return window.getComputedStyle(document.querySelector('.cd-horizontal-timeline'), '::before').getPropertyValue('content').replace(/'/g, "").replace(/"/g, "");
 	}
 });
+
+$(window).on("load", function () {
+  if ($.mobile && $.mobile.loading) {
+    $.mobile.loading("hide");
+  }
+});
