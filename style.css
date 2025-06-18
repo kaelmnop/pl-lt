@@ -374,6 +374,7 @@ Main Components
   .cd-horizontal-timeline .events-content em,
   .intro em {
     font-size: 2rem;
+    font-weight: bold;
   }
   .cd-horizontal-timeline .events-content p,
   .intro p {
